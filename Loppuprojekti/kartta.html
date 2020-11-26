@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/main.css">
+    <meta charset="UTF-8">
+    <title>Loppuprojekti - Kartta</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+</head>
+<style>
+    #mapid {
+        height: 540px;
+        }
+</style>
+<body>
+
+<main>
+    <section>
+        <div id="mapid"></div>
+    </section>
+</main>
+
+<script src="js/main.js"></script>
+<script>
+
+const map = createMap(60.17, 24.90, 13);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+}).addTo(map);
+
+addMarker(map, 60.1740, 24.9081, "<b>Hello world!</b><br>I am a popup.");
+
+// Tekee kartan ja palauttaa sen.
+function createMap(longitude, langitude, zoom) {
+    return L.map('mapid').setView([longitude, langitude], zoom);
+}
+
+// Lisää karttaan markkerin.
+function addMarker(map, longitude, langitude, text) {
+    let marker = L.marker([60.1740, 24.9081]).addTo(map);
+    marker.bindPopup(text);
+}
+
+</script>
+
+</body>
+</html>
