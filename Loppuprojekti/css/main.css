@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+}
+.navigation , li, a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    background-color: #23252A;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10%;
+}
+.navigation li{
+
+    display: inline-block;
+    padding: 0 20px;
+}
+.navigation li a{
+    transition: all 0.3s ease 0s;
+}
+.navigation li a:hover{
+    color: #008800;
+}
+/*Navigaatio loppu
+
+ */
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}

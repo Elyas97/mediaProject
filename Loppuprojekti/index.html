@@ -9,14 +9,10 @@
 </head>
 <body>
 <header>
-    <nav>
+    <nav class="navigation">
     <ul>
-        <li>
-            Budget
-        </li>
-        <li>
-            About
-        </li>
+        <li><a href="index.html">Budget</a></li>
+        <li><a href="kartta.html">About</a></li>
     </ul>
     </nav>
 </header>
@@ -24,8 +20,9 @@
     <section class="ContainerHeader">
     <h2>Nykyinen saldo</h2>
     <h4>Tulot</h4>
-    <h3>Menot</h3>
+    <h4>Menot</h4>
     </section>
+    <article>
     <section class="IncomeTable">
        <h5>Tulot</h5>
         <ul>
@@ -43,6 +40,7 @@
         <input type="number" class="Value" placeholder="Lisää numero">
         <button type="submit"><i class="fas fa-plus-square"> </i></button>
     </section>
+    </article>
 </main>
 <script src="js/main.js"></script>
 </body>
