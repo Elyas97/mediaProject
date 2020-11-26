@@ -5,16 +5,45 @@
     <link rel="stylesheet" href="css/main.css">
     <meta charset="UTF-8">
     <title>Loppuprojekti</title>
+    <script src="https://kit.fontawesome.com/2f21ea8abe.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
+<header>
+    <nav>
+    <ul>
+        <li>
+            Budget
+        </li>
+        <li>
+            About
+        </li>
+    </ul>
+    </nav>
+</header>
 <main>
-    <section>
-        
+    <section class="ContainerHeader">
+    <h2>Nykyinen saldo</h2>
+    <h4>Tulot</h4>
+    <h3>Menot</h3>
+    </section>
+    <section class="IncomeTable">
+       <h5>Tulot</h5>
+        <ul>
+            // Tähän tulee dynaaminen js kautta
+        </ul>
+    </section>
+    <section class="ExpenseTable">
+        <h5>Menot</h5>
+        <ul>
+            // Tähän tulee dynaaminen js kautta
+        </ul>
+    </section>
+    <section class="InputList">
+        <input type="text" class="Description" placeholder="Lisää tieto">
+        <input type="number" class="Value" placeholder="Lisää numero">
+        <button type="submit"><i class="fas fa-plus-square"> </i></button>
     </section>
 </main>
-
 <script src="js/main.js"></script>
-
 </body>
 </html>
