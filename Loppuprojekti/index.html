@@ -18,27 +18,42 @@
 </header>
 <main>
     <section class="ContainerHeader">
-    <h2>Nykyinen saldo</h2>
-    <h4>Tulot</h4>
-    <h4>Menot</h4>
+    <div class="saldo">
+     <h3 class="otsikko">Nykyinen Saldo:</h3>
+        <p class="saldoNyt">0</p>
+    </div>
+    <div class="summa">
+        <div class="otsikkoSum">Tulot
+        <p class="summaNyt">0</p>
+        </div>
+    </div>
+        <div class=menot>
+    <div class="otsikkoMeno">Menot
+         <p class="menoNyt">0</p>
+    </div>
+     </div>
     </section>
     <article>
-    <section class="IncomeTable">
-       <h5>Tulot</h5>
-        <ul>
+        <section class="InputList">
+            <select class="addbtn">
+                <option selected>+</option>
+                <option>-</option>
+            </select>
+            <input class="descript" type="text" class="Description" placeholder="Lisää tieto">
+            <input class="addnum" type="number" class="Value" placeholder="Lisää numero" min="0">
+            <button class="sumbitted" type="submit"><i class="fas fa-plus-square" > </i></button>
+        </section>
+        <section class="IncomeTable">
+            <h5>Tulot</h5>
+            <ul>
             // Tähän tulee dynaaminen js kautta
-        </ul>
-    </section>
-    <section class="ExpenseTable">
-        <h5>Menot</h5>
-        <ul>
+            </ul>
+        </section>
+        <section class="ExpenseTable">
+            <h5>Menot</h5>
+            <ul>
             // Tähän tulee dynaaminen js kautta
-        </ul>
-    </section>
-    <section class="InputList">
-        <input type="text" class="Description" placeholder="Lisää tieto">
-        <input type="number" class="Value" placeholder="Lisää numero">
-        <button type="submit"><i class="fas fa-plus-square"> </i></button>
+            </ul>
     </section>
     </article>
 </main>
