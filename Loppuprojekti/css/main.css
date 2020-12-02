@@ -4,8 +4,8 @@
     margin: 0;
     padding: 0;
 
-
 }
+
 .navigation , li, a{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -44,7 +44,10 @@ main{
 
 
 .ContainerHeader{
-
+    background-image: url("../background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -79,6 +82,7 @@ main{
     padding: 14px;
     border-bottom: 1px solid #e7e7e7;
     background-color: #f7f7f7;
+    position: relative;
 }
 .addbtn{
     width: 44px;
@@ -96,5 +100,36 @@ main{
  transition: border 0.3s;
 }
 .sumbitted{
-background-color: #008800;
+    background-color: rgb(247, 247, 247);
+    color: rgb(0, 136, 0);
+    font-size: 40px;
+    border-style: none;
+    padding: 12px 15px;
+    position: relative;
+    bottom: -11px;
+
+
+
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #e7e7e7;
+}
+.IncomeTable, .ExpenseTable{
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px 10%;
+
+}
+.tulonimi{
+    font-size: 25px;
+    color: green;
+}
+.menoNimi{
+    font-size: 25px;
+    color: red;
 }
