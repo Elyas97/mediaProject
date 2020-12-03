@@ -23,7 +23,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Loppuprojekti/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Loppuprojekti/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Loppuprojekti/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Loppuprojekti/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Loppuprojekti/background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loppuprojekti/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Loppuprojekti/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +65,7 @@
       <workItem from="1606728284269" duration="1609000" />
       <workItem from="1606760708106" duration="24000" />
       <workItem from="1606925695020" duration="12279000" />
+      <workItem from="1607015674371" duration="12164000" />
     </task>
     <task id="LOCAL−00001" summary="Navigaatio tehty">
       <created>1606430561774</created>

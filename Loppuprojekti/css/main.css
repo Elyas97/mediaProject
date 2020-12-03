@@ -115,10 +115,10 @@ main{
 .content{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    align-content: center;
+    flex-direction: row;
     background: #e7e7e7;
+    max-width: 100%;
 }
 .IncomeTable, .ExpenseTable{
     font-family: 'Montserrat', sans-serif;
@@ -133,3 +133,9 @@ main{
     font-size: 25px;
     color: red;
 }
+    figure{
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+        color: red;
+    }
