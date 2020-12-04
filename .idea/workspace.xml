@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05d30754-4931-4ebf-932e-a6a7e8c45e57" name="Default Changelist" comment="images tehty2">
+    <list default="true" id="05d30754-4931-4ebf-932e-a6a7e8c45e57" name="Default Changelist" comment="javascript alku &amp; pitää enää saada näytölle lista">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Loppuprojekti/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Loppuprojekti/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Loppuprojekti/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Loppuprojekti/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Loppuprojekti/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Loppuprojekti/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +64,9 @@
       <workItem from="1606728284269" duration="1609000" />
       <workItem from="1606760708106" duration="24000" />
       <workItem from="1606925695020" duration="12279000" />
-      <workItem from="1607015674371" duration="12164000" />
+      <workItem from="1607015674371" duration="12524000" />
+      <workItem from="1607035365897" duration="2262000" />
+      <workItem from="1607084009610" duration="12441000" />
     </task>
     <task id="LOCAL−00001" summary="Navigaatio tehty">
       <created>1606430561774</created>
@@ -85,7 +86,13 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1606932920612</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="javascript alku &amp; pitää enää saada näytölle lista">
+      <created>1607028113703</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1607028113703</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,17 +114,18 @@
     <MESSAGE value="Navigaatio tehty" />
     <MESSAGE value="images tehty" />
     <MESSAGE value="images tehty2" />
-    <option name="LAST_COMMIT_MESSAGE" value="images tehty2" />
+    <MESSAGE value="javascript alku &amp; pitää enää saada näytölle lista" />
+    <option name="LAST_COMMIT_MESSAGE" value="javascript alku &amp; pitää enää saada näytölle lista" />
   </component>
   <component name="WindowStateProjectService">
     <state x="302" y="84" key="FileChooserDialogImpl" timestamp="1606760729218">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="302" y="84" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606760729218" />
-    <state x="349" y="146" key="Vcs.Push.Dialog.v2" timestamp="1606932939548">
+    <state x="349" y="146" key="Vcs.Push.Dialog.v2" timestamp="1607028128038">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="349" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606932939548" />
+    <state x="349" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607028128038" />
     <state x="574" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606423864508">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

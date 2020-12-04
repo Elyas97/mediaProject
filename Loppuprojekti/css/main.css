@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 
 }
-
+body{
+    background-color: #e7e7e7;
+}
 .navigation , li, a{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -55,8 +58,8 @@ main{
     align-items: center;
     font-family: 'Montserrat', sans-serif;
     background-color: white;
-    font-size: 25px;
     padding: 30px 10%;
+    color: #366267;
 
 
 }
@@ -74,7 +77,22 @@ main{
 }
 .summa,.menot{
     padding: 20px 10%;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
 }
+.otsikkoMeno{
+    color: black;
+}
+.otsikkoSum{
+    color: black;
+}
+.otsikkoSum p{
+    color: blue;
+}
+.otsikkoMeno p{
+    color: red;
+}
+
 
 
 
@@ -121,21 +139,66 @@ main{
     max-width: 100%;
 }
 .IncomeTable, .ExpenseTable{
+    width: 50%;
     font-family: 'Montserrat', sans-serif;
     padding: 30px 10%;
 
 }
 .tulonimi{
+    padding-bottom: 10px;
     font-size: 25px;
     color: green;
 }
 .menoNimi{
+    padding-bottom: 10px;
     font-size: 25px;
     color: red;
 }
-    figure{
+/* Listan css */
+.listaTulo,.listaMeno{
         display: flex;
         flex-direction: row;
-        padding: 5px;
-        color: red;
-    }
+        flex-basis: 100%;
+        padding: 10px;
+        justify-content: space-around;
+        border-bottom: 1px solid white;
+        color: black;
+}
+.listaTulo,.listaMeno:first-child{
+    border-top: 1px solid white;
+}
+.listaMeno:nth-child(2){
+    background-color: #e0d7d7;
+}
+.listaTulo:nth-child(2){
+    background-color: #e0d7d7;
+}
+.listaTulo p {
+    color: #28B9B5;
+}
+.listaMeno p {
+    color: red;
+}
+.poista,.poista2{
+    margin-left: 10px;
+    padding: 5px;
+    background-color: red;
+    border-radius: 14px;
+    color: white;
+
+}
+.poista:hover{
+    background-color: orange;
+    padding: 6px;
+    transition: all 0.3s ease 0s;
+    color: black;
+}
+.poista2:hover{
+    background-color: orange;
+    padding: 6px;
+    transition: all 0.3s ease 0s;
+    color: black;
+}
+
+
+
