@@ -21,6 +21,7 @@ button.addEventListener("click",function () {
         alert("syötä positiivinen luku")
         return;
     }
+    //jos on valittu tulo niin luodaan objekti
     if (tyyppi.value =="tulo"){
         let tulot ={
             type : "tulo",
@@ -42,7 +43,7 @@ button.addEventListener("click",function () {
     naytolleLista(taulu)
 
 })
-
+//laskee summan arrayssa ottamalla huomioon onko tulo vai meno
 function summa(tyyppi ,taulu){
     let sum=0;
  for (let i=0;i<taulu.length;i++){
@@ -69,6 +70,7 @@ function naytolleLista(taulu){
         for (let i=0;i<taulu.length;i++) {
             let x=taulu[i]
             if (taulu[i].type == "tulo") {
+                //annetaan special id jokaiselle listalle myöhemmin poistetaan
             tuloLista.innerHTML+=
                 `<li id="${i}" class="listaTulo"> <figure class="alkiolista">${x.tieto}</figure>
                     <p>${x.maara}<button class="poista">poista</button></p></li>`
@@ -83,13 +85,14 @@ function tyhjennaSyote(){
     maara.value="";
     tieto.value="";
 }
-
+//poistetaan elementti valitussa indeksissä
 function poistaElementti (index,array){
     array.splice(index,1)
 }
 //julkinen event listerner kaikille poista buttoneille
 addEventListener('click',function (e) {
     let kohde=e.target;
+    //mennään buttonista isäntään joka on li,siellä on erityinen id
     let käynti=kohde.parentNode.parentNode;
     if (kohde.className==="poista"){
        poistaElementti(käynti.id,taulu)

@@ -199,6 +199,37 @@ main{
     transition: all 0.3s ease 0s;
     color: black;
 }
+@media only screen and (max-width: 620px) {
+    body{
+        max-width: 100%;
+    }
+    .InputList{
+       display: flex;
+        flex-direction: column;
+       align-content: center;
+       align-items: center;
+       text-align: center;
+   }
+
+    .navigation ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .content{
+        max-width: 100%;
+    }
+    .listaMeno,.listaTulo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .poista2,.poista{
+        display: block;
+        margin: auto;
+    }
+
+}
 
 
 
