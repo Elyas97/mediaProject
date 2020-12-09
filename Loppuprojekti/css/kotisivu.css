@@ -169,3 +169,69 @@ main {
     background-color: #4CAF50;
     color: white;
 }
+
+#tekijoista {
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    background-color: white;
+}
+
+#tekijoista .otsikko {
+    margin: 20px;
+}
+
+#tekijoista .flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+#tekijoista .tekija {
+    border: 2px solid rgba(0, 0, 0, 0.192);
+    border-radius: 4px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+#tekijoista .tekija .nimi {
+    margin: 20px;
+}
+
+#tekijoista .tekija .kuva {
+    margin: 20px;
+}
+
+#tekijoista .tekija .teksti {
+    color: #433c3c;
+}
+
+@media only screen and (max-width: 620px) {
+    #tekijoista .flex-container {
+        flex-direction: column;
+        max-width: 620px;
+    }
+}
+
+#loppu-footer {
+    width: 100%;
+    margin: 0 auto 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#loppu-footer .copyright {
+    float: left;
+    font-size: 18px;
+    padding-top: 6px;
+}
+
+#loppu-footer .socials {
+    float: right;
+    color: #444444;
+    font-size: 28px;
+}
+#loppu-footer .socials i:hover {
+    color: white;
+}
