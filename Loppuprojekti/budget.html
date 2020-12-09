@@ -1,61 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <title>Budger Manager</title>
-      <link rel="icon" type="image/png" href="images/favicon.png" />
-      <link rel="stylesheet" href="css/budget.css">
-      <script src="https://kit.fontawesome.com/2f21ea8abe.js" crossorigin="anonymous"></script>
-   </head>
-   <body>
-      <header>
-         <nav id="navigation">
-            <ul>
-               <li ><a style="color: orange" href="budget.html">Budget</a></li>
-               <li><a href="kotisivu.html">Kotisivu</a></li>
-               <li><a href="kartta.html">Toimipiste</a></li>
-            </ul>
-         </nav>
-      </header>
-      <main>
-         <section class="ContainerHeader">
-            <div class="saldo">
-               <h3 class="otsikko">Nykyinen Saldo:</h3>
-               <p class="saldoNyt">0</p>
-            </div>
-            <div class="summa">
-               <div class="otsikkoSum">
-                  Tulot
-                  <p class="summaNyt">0</p>
-               </div>
-            </div>
-            <div class=menot>
-               <div class="otsikkoMeno">
-                  Menot
-                  <p class="menoNyt">0</p>
-               </div>
-            </div>
-         </section>
-         <section class="InputList">
-            <select class="addbtn">
-               <option value="tulo">+</option>
-               <option value="meno">-</option>
-            </select>
-            <input class="descript" type="text" class="Description" placeholder="Lisää tieto">
-            <input class="addnum" type="number" class="Value" placeholder="Lisää numero" min="0" max="100000000">
-            <button class="sumbitted" type="submit"><i class="fas fa-plus-square"></i></i></button>
-         </section>
-         <article class="content">
-            <section class="IncomeTable">
-               <h5 class="tulonimi">Tulot</h5>
-               <ul class="tuloLista"></ul>
+    <head>
+        <meta charset="UTF-8">
+        <title>Budger Manager</title>
+        <link rel="icon" type="image/png" href="images/favicon.png" />
+        <link rel="stylesheet" href="css/budget.css">
+        <script src="https://kit.fontawesome.com/2f21ea8abe.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <nav id="navigation">
+                <ul>
+                    <li ><a style="color: orange" href="budget.html">Budget</a></li>
+                    <li><a href="kotisivu.html">Kotisivu</a></li>
+                    <li><a href="kartta.html">Toimipiste</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="ContainerHeader">
+                <div class="saldo">
+                    <h3 class="otsikko">Nykyinen Saldo:</h3>
+                    <p class="saldoNyt">0</p>
+                </div>
+                <div class="summa">
+                    <div class="otsikkoSum">
+                        Tulot
+                        <p class="summaNyt">0</p>
+                    </div>
+                </div>
+                <div class=menot>
+                    <div class="otsikkoMeno">
+                        Menot
+                        <p class="menoNyt">0</p>
+                    </div>
+                </div>
             </section>
-            <section class="ExpenseTable">
-               <h5 class="menoNimi">Menot</h5>
-               <ul class="menoLista"></ul>
+            <section class="InputList">
+                <select class="addbtn">
+                    <option value="tulo">+</option>
+                    <option value="meno">-</option>
+                </select>
+                <input class="descript" type="text" class="Description" placeholder="Lisää tieto">
+                <input class="addnum" type="number" class="Value" placeholder="Lisää numero" min="0" max="100000000">
+                <button class="sumbitted" type="submit"><i class="fas fa-plus-square"></i></i></button>
             </section>
-         </article>
-      </main>
-      <script src="js/budget.js"></script>
-   </body>
+            <article class="content">
+                <section class="IncomeTable">
+                    <h5 class="tulonimi">Tulot</h5>
+                    <ul class="tuloLista"></ul>
+                </section>
+                <section class="ExpenseTable">
+                    <h5 class="menoNimi">Menot</h5>
+                    <ul class="menoLista"></ul>
+                </section>
+            </article>
+        </main>
+        <script src="js/budget.js"></script>
+    </body>
 </html>
