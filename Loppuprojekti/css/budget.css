@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #e7e7e7;
+}
+
+input,
+textarea,
+button {
+	font-family: inherit;
+}
+
+#navigation,
+li,
+a {
+	font-weight: 500;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+	list-style: none;
+}
+
+header {
+	background-color: #23252A;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 30px 10%;
+}
+
+#navigation li {
+	display: inline-block;
+	padding: 0 20px;
+}
+
+#navigation li a {
+	transition: all 0.3s ease 0s;
+}
+
+#navigation li a:hover {
+	color: #008800;
+}
+
+
+/*Navigaatio loppu*/
+
+main {
+	background-color: #EBFFF4;
+	text-align: center;
+}
+
+.ContainerHeader {
+	background-image: url("../images/background.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	padding: 30px 10%;
+	color: #366267;
+}
+
+.saldo {
+	padding: 5px;
+	width: 100%;
+}
+
+.saldoNyt {
+	font-family: SansSerif;
+	font-weight: 100;
+	font-size: 40px;
+	padding: 5px;
+}
+
+.summa,
+.menot {
+	padding: 20px 10%;
+	background-color: rgba(255, 255, 255, 0.5);
+	font-weight: bold;
+}
+
+.otsikkoMeno {
+	color: black;
+}
+
+.otsikkoSum {
+	color: black;
+}
+
+.otsikkoSum p {
+	color: blue;
+}
+
+.otsikkoMeno p {
+	color: red;
+}
+
+.InputList {
+	padding: 14px;
+	border-bottom: 1px solid #e7e7e7;
+	background-color: #f7f7f7;
+	position: relative;
+}
+
+.addbtn {
+	width: 44px;
+	border: 1px solid #e7e7e7;
+	height: 44px;
+	font-size: 18px;
+}
+
+.descript,
+.addnum {
+	border: 1px solid #e7e7e7;
+	background-color: #fff;
+	font-size: 14px;
+	padding: 12px 15px;
+	margin-right: 10px;
+	border-radius: 5px;
+	transition: border 0.3s;
+}
+
+.sumbitted {
+	background-color: rgb(247, 247, 247);
+	color: rgb(0, 136, 0);
+	font-size: 40px;
+	border-style: none;
+	padding: 12px 15px;
+	position: relative;
+	bottom: -11px;
+}
+
+.content {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: row;
+	background: #e7e7e7;
+	max-width: 100%;
+}
+
+.IncomeTable,
+.ExpenseTable {
+	width: 50%;
+	padding: 30px 10%;
+}
+
+.tulonimi {
+	padding-bottom: 10px;
+	font-size: 25px;
+	color: green;
+}
+
+.menoNimi {
+	padding-bottom: 10px;
+	font-size: 25px;
+	color: red;
+}
+
+
+/* Listan css */
+
+.listaTulo,
+.listaMeno {
+	display: flex;
+	flex-direction: row;
+	flex-basis: 100%;
+	padding: 10px;
+	justify-content: space-around;
+	border-bottom: 1px solid white;
+	color: black;
+}
+
+.listaTulo,
+.listaMeno:first-child {
+	border-top: 1px solid white;
+}
+
+.listaMeno:nth-child(2) {
+	background-color: #e0d7d7;
+}
+
+.listaTulo:nth-child(2) {
+	background-color: #e0d7d7;
+}
+
+.listaTulo p {
+	color: #28B9B5;
+}
+
+.listaMeno p {
+	color: red;
+}
+
+.poista,
+.poista2 {
+	margin-left: 10px;
+	padding: 5px;
+	background-color: red;
+	border-radius: 14px;
+	color: white;
+}
+
+.poista:hover {
+	background-color: orange;
+	padding: 6px;
+	transition: all 0.3s ease 0s;
+	color: black;
+}
+
+.poista2:hover {
+	background-color: orange;
+	padding: 6px;
+	transition: all 0.3s ease 0s;
+	color: black;
+}
+
+@media only screen and (max-width: 620px) {
+	body {
+		max-width: 100%;
+	}
+	.InputList {
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		align-items: center;
+		text-align: center;
+	}
+	.content {
+		max-width: 100%;
+	}
+	.listaMeno,
+	.listaTulo {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.poista2,
+	.poista {
+		display: block;
+		margin: auto;
+	}
+}
