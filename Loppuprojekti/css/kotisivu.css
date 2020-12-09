@@ -1,170 +1,171 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
-	font-size: 2em;
+    font-size: 2em;
 }
 
 body {
-	font-family: 'Montserrat', sans-serif;
-	background-color: #e7e7e7;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e7e7e7;
 }
 
 input,
 textarea,
 button {
-	font-family: inherit;
+    font-family: inherit;
 }
 
 #navigation,
 li,
 a {
-	font-weight: 500;
-	font-size: 18px;
-	color: white;
-	text-decoration: none;
-	list-style: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    list-style: none;
 }
 
 header {
-	background-color: #23252A;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	padding: 30px 10%;
+    background-color: #23252A;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10%;
 }
 
 #navigation li {
-	display: inline-block;
-	padding: 0 20px;
+    display: inline-block;
+    padding: 0 20px;
 }
 
 #navigation li a {
-	transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
 }
 
 #navigation li a:hover {
-	color: #008800;
+    color: #008800;
 }
 
 main {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #etusivu {
-	background-image: url("../images/piggybank.png");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 720px;
-	width: 100%;
-	position: relative;
+    background-image: url("../images/piggybank.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 720px;
+    width: 100%;
+    position: relative;
 }
 
 #etusivu .wrapper {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	padding: 20px;
-	text-align: center;
-	background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 #etusivu .wrapper .otsikko {
-	padding: 10px;
-	color: white;
-	text-shadow: 2px 2px black;
+    padding: 10px;
+    color: white;
+    text-shadow: 2px 2px black;
 }
 
 #etusivu .wrapper .kokeile {
-	border: 0;
-	border: 2px solid white;
-	background-color: orange;
-	color: black;
-	padding: 12px 32px;
-	border-radius: 4px;
-	cursor: pointer;
-	letter-spacing: .5px;
-	margin: 15px;
+    border: 0;
+    border: 2px solid white;
+    background-color: orange;
+    color: black;
+    padding: 12px 32px;
+    border-radius: 4px;
+    cursor: pointer;
+    letter-spacing: .5px;
+    margin: 15px;
+    font-size: 18px;
 }
 
 #etusivu .wrapper .kokeile a {
-	color: #23252A;
+    color: #23252A;
 }
 
 #etusivu .wrapper .kokeile:hover {
-	background-color: #4CAF50;
+    background-color: #4CAF50;
 }
 
 #etusivu .wrapper .kokeile:hover a {
-	color: white;
+    color: white;
 }
 
 #sovelluksesta {
-	width: 100%;
-	margin: 10px 0px 10px 0px;
-	padding: 10px 0px 10px 0px;
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	background-color: white;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
 }
 
 #sovelluksesta .otsikko {
-	padding: 20px;
+    padding: 20px;
 }
 
 #sovelluksesta .teksti {
-	font-size: 23px;
-	text-align: center;
-	color: #433c3c;
-	line-height: 28px;
-	margin: 20px;
+    font-size: 23px;
+    text-align: center;
+    color: #433c3c;
+    line-height: 28px;
+    margin: 20px;
 }
 
 #vitsi {
-	width: 100%;
-	margin: 10px 0px 10px 0px;
-	padding: 10px 0px 10px 0px;
-	text-align: center;
-	background-color: white;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    background-color: white;
 }
 
 #vitsi .otsikko {
-	margin: 20px;
+    margin: 20px;
 }
 
 #vitsi #joke {
-	font-weight: bold;
-	font-style: italic;
-	font-size: 20px;
-	margin: 20px;
-	padding-left: 10%;
-	padding-right: 10%;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    margin: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 #vitsi #generate_joke {
-	background-color: orange;
-	border: none;
-	color: black;
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 18px;
-	margin: 20px;
+    background-color: orange;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin: 20px;
 }
 
 #vitsi #generate_joke:hover {
-	background-color: #4CAF50;
-	color: white;
+    background-color: #4CAF50;
+    color: white;
 }
