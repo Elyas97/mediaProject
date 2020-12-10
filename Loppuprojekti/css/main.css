@@ -57,6 +57,7 @@ header {
     margin: 0 auto 0 auto;
     padding: 20px;
     text-align: center;
+    position: absolute;
 }
 
 #loppu-footer .copyright {

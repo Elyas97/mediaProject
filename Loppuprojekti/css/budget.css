@@ -1,6 +1,6 @@
 main {
-    background-color: #EBFFF4;
     text-align: center;
+    min-height: calc(100vh - 156px);
 }
 
 .ContainerHeader {
