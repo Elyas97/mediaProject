@@ -133,11 +133,11 @@ main {
     border-top: 1px solid white;
 }
 
-.listaMeno:nth-child(2) {
+.listaMeno:nth-child(even) {
     background-color: #e0d7d7;
 }
 
-.listaTulo:nth-child(2) {
+.listaTulo:nth-child(even) {
     background-color: #e0d7d7;
 }
 
